@@ -67,7 +67,6 @@ class MailerSendService:
         self, to_email: str, to_name: str, subject: str, body: str
     ) -> Dict[str, Any]:
         """Send email using MailerSend API"""
-        to_email = "adityakedawat@gmail.com"
         url = f"{self.base_url}/email"
 
         payload = {

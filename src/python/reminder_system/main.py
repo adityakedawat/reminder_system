@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 
 # Import the reminder service
 try:
-    from reminder_service import ReminderService
+    from reminder_system.reminder_service import ReminderService
 except ImportError:
     # Fallback for when running as a module
     from .reminder_service import ReminderService

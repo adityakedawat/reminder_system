@@ -343,9 +343,9 @@ class ReminderService:
                         )
 
                 except Exception as e:
-                    # self.update_reminder_status(
-                    #     reminder.reminder_id, client.id, "error", str(e)
-                    # )
+                    self.update_reminder_status(
+                        reminder.reminder_id, client.id, "error", str(e)
+                    )
                     error_count += 1
                     logger.error(
                         f"Error processing reminder {reminder.reminder_type_name}: {str(e)}"

@@ -37,9 +37,9 @@ SUPABASE_URL=your_supabase_url
 SUPABASE_SECRET_KEY=your_supabase_secret_key
 
 # MailerSend Configuration
-MAILERSEND_API_KEY=your_mailersend_api_key
-MAILERSEND_FROM_EMAIL=your_verified_sender_email
-MAILERSEND_FROM_NAME=Your Company Name
+RESEND_API_KEY=your_RESEND_API_KEY
+RESEND_FROM_EMAIL=your_verified_sender_email
+RESEND_FROM_NAME=Your Company Name
 ```
 
 ### 2. GitHub Secrets
@@ -49,9 +49,9 @@ For GitHub Actions, add the following secrets to your repository:
 **Required:**
 - `SUPABASE_URL`
 - `SUPABASE_SECRET_KEY`
-- `MAILERSEND_API_KEY`
-- `MAILERSEND_FROM_EMAIL`
-- `MAILERSEND_FROM_NAME`
+- `RESEND_API_KEY`
+- `RESEND_FROM_EMAIL`
+- `RESEND_FROM_NAME`
 
 **For failure notifications:**
 - `EMAIL_USERNAME` - Gmail address for sending notifications

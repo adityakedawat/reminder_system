@@ -13,8 +13,8 @@ def test_environment_variables():
     required_vars = [
         'SUPABASE_URL',
         'SUPABASE_SECRET_KEY',
-        'MAILERSEND_API_KEY',
-        'MAILERSEND_FROM_EMAIL'
+        'RESEND_API_KEY',
+        'RESEND_FROM_EMAIL'
     ]
     
     missing_vars = []

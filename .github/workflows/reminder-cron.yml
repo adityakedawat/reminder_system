@@ -40,9 +40,9 @@ jobs:
       env:
         SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
         SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
-        MAILERSEND_API_KEY: ${{ secrets.MAILERSEND_API_KEY }}
-        MAILERSEND_FROM_EMAIL: ${{ secrets.MAILERSEND_FROM_EMAIL }}
-        MAILERSEND_FROM_NAME: ${{ secrets.MAILERSEND_FROM_NAME }}
+        RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+        RESEND_FROM_EMAIL: ${{ secrets.RESEND_FROM_EMAIL }}
+        RESEND_FROM_NAME: ${{ secrets.RESEND_FROM_NAME }}
       run: |
         reminder-system
         

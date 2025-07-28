@@ -1,6 +1,6 @@
 # Reminder System
 
-A comprehensive reminder system that sends automated emails using MailerSend API and Supabase as the database backend.
+A comprehensive reminder system that sends automated emails using RESEND API and Supabase as the database backend.
 
 ## Features
 
